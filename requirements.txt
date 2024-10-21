@@ -1,6 +1,6 @@
 Flask==2.2.2 #Flask: El marco web que estás usando para desarrollar la API.
 requests==2.28.1 #requests: Una librería popular para realizar solicitudes HTTP.
-
+Werkzeug==2.2.2 #Biblioteca que maneja utilidades WSGI, la cual incluye el método quote que mencionas.
 # pip install -r requirements.txt para instalar las dependencias.
 
 # Iniciar el Servidor Flask
