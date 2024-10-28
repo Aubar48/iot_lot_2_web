@@ -1,4 +1,4 @@
-<figure><img src="./ispc.jpeg" alt="logo" style="height: 200px;"></figure>
+<figure><img src="./ispc.jpeg" alt="logo" style="height: 150px;"></figure>
 
 # Proyecto API IoT con Flask y Frontend en HTML/CSS/JavaScript
 Descripción
@@ -13,13 +13,15 @@ Python 3.x: Se utiliza para ejecutar Flask.
 Flask: Framework web de Python. Puedes instalarlo ejecutando pip install flask.
 HTML/CSS/JavaScript: Para el frontend del proyecto.
 
-Link Web: https://iot-lot-2-web.onrender.com/
-Link Api: https://iot-lot-2.onrender.com/data
-Link Wokwi: https://wokwi.com/projects/406401817182924801
+## Links: 
+- *Link Web:* [Render Web](https://iot-lot-2-web.onrender.com/)
+- *Link Api:* [Render Api](https://iot-lot-2.onrender.com/data)
+- *Link Wokwi:* [Wokwi](https://wokwi.com/projects/406401817182924801)
 
 ## En la carpeta "mock" esta la documentacion de las tres evidencia de la asignatura aproximación al mundo del trabajo.
 
-## Código del proyecto part 2 en GitHub https://github.com/Aubar48/iot_lot_2
+## Código del proyecto part 2:
+- *GitHub:* [Github Link Part 2](https://github.com/Aubar48/iot_lot_2)
 Aquí se encuentra el código completo, incluyendo la conexión entre el simulador y la base de datos MySQL. 
 
 ## Autores
