@@ -4,12 +4,23 @@
 Descripción
 Este proyecto es una aplicación web para gestionar datos de dispositivos IoT (Internet de las Cosas) utilizando Flask como backend y un frontend en HTML, CSS y JavaScript. El sistema permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre los datos de sensores mediante una API.
 
+Además, se utiliza [**charts.css**](https://chartscss.org/) para la visualización de datos, lo que facilita la creación de gráficos atractivos y responsivos con un enfoque sencillo y eficiente.
+
 Requisitos
 Antes de empezar, asegúrate de tener instalados los siguientes componentes:
 
 Python 3.x: Se utiliza para ejecutar Flask.
 Flask: Framework web de Python. Puedes instalarlo ejecutando pip install flask.
 HTML/CSS/JavaScript: Para el frontend del proyecto.
+
+Link Web: https://iot-lot-2-web.onrender.com/
+Link Api: https://iot-lot-2.onrender.com/data
+Link Wokwi: https://wokwi.com/projects/406401817182924801
+
+## En la carpeta "mock" esta la documentacion de las tres evidencia de la asignatura aproximación al mundo del trabajo.
+
+## Código del proyecto part 2 en GitHub https://github.com/Aubar48/iot_lot_2
+Aquí se encuentra el código completo, incluyendo la conexión entre el simulador y la base de datos MySQL. 
 
 ## Autores
 
