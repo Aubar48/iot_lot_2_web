@@ -6,12 +6,13 @@ Este proyecto es una aplicación web para gestionar datos de dispositivos IoT (I
 
 Además, se utiliza [**charts.css**](https://chartscss.org/) para la visualización de datos, lo que facilita la creación de gráficos atractivos y responsivos con un enfoque sencillo y eficiente.
 
-Requisitos
+## Requisitos
 Antes de empezar, asegúrate de tener instalados los siguientes componentes:
 
-Python 3.x: Se utiliza para ejecutar Flask.
-Flask: Framework web de Python. Puedes instalarlo ejecutando pip install flask.
-HTML/CSS/JavaScript: Para el frontend del proyecto.
+- Python 3.x: Se utiliza para ejecutar Flask.
+- Flask: Framework web de Python. Puedes instalarlo ejecutando pip install flask.
+- pip install -r requirements.txt para instalar todas las dependencias.
+- HTML/CSS/JavaScript: Para el frontend del proyecto.
 
 ## Links: 
 - *Link Web:* [Render Web](https://iot-lot-2-web.onrender.com/)
