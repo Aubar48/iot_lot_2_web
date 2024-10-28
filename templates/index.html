@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API IoT</title>
+    <link rel="icon" href="../static/image/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/image/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
     <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
 </head>
+
 <body>
     <div class="container">
         <h1>API IoT</h1>
@@ -37,7 +45,24 @@
         <!-- Botón para mostrar los datos almacenados -->
         <h2>Datos almacenados</h2>
         <button id="fetchDataButton">Mostrar datos</button>
-        <div id="dataDisplay"></div>
+
+        <!-- Tabla para mostrar los datos como gráfico -->
+        <div id="dataDisplay">
+            <table class="charts-css column">
+                <caption>Gráfico de valores de sensores</caption>
+                <thead>
+                    <tr>
+                        <th>Sensor</th>
+                        <th>Valor</th>
+                        <th>Time</th>
+
+                    </tr>
+                </thead>
+                <tbody id="dataTableBody">
+                    <!-- Los datos se llenarán desde script.js -->
+                </tbody>
+            </table>
+        </div>
 
         <div id="response"></div>
     </div>
@@ -45,4 +70,5 @@
     <!-- Conectar al script de JS para manejar eventos -->
     <script src="/static/script.js"></script>
 </body>
+
 </html>
